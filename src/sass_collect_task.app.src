@@ -1,0 +1,12 @@
+{application, sass_collect_task,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { sass_collect_task_app, []}},
+  {env, []}
+ ]}.
