@@ -1,11 +1,21 @@
 {application, sass_collect_task,
  [
-  {description, ""},
-  {vsn, "1"},
-  {registered, []},
+  {description, "Some web data mining worker"},
+  {vsn, "0.0.1"},
+  {registered, [sass_collect_task]},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+                  inets,
+                  lager,
+                  ranch,
+                  cowlib,
+                  cowboy,
+                  jsx,
+                  msgpack,
+                  sqor_logger,
+                  resterl, 
+                  resource_discovery
                  ]},
   {mod, { sass_collect_task_app, []}},
   {env, []}
